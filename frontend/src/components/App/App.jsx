@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navbar />
       <main>
-        <h1>Hello World! Welcome to Mindy's portfolio</h1>
+        <h1>Hello World!</h1>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
