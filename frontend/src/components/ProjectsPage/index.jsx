@@ -3,8 +3,10 @@ import React from "react";
 function ProjectsPage() {
     return (
         <>
-            <h1>Projects Page</h1>
-            <p>projects page content... </p>
+            <h1>Project Page Title</h1>
+            <p>project page content... </p>
         </>
     )
 }
+
+export default ProjectsPage;

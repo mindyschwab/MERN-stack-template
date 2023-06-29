@@ -16,6 +16,11 @@ function Navbar() {
                             <p> About </p>
                         </Link>
                     </li>
+                    <li>
+                        <Link to="/projects">
+                            <p> Projects </p>
+                        </Link>
+                    </li>
                 </ul>
             </nav >
         </>
