@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 // resource for responsive navbar using tailwind and react: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/react/navbars
 function Navbar() {
@@ -6,9 +6,10 @@ function Navbar() {
         <>
             <nav>
                 <ul>
-                    <li>                <Link to="/">
-                        <p> Home </p>
-                    </Link>
+                    <li>
+                        <Link to="/">
+                            <p> Home </p>
+                        </Link>
                     </li>
                     <li>
                         <Link to="/about">
