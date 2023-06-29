@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import "./styles.css";
 
 // resource for responsive navbar using tailwind and react: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/react/navbars
 function Navbar() {
